@@ -1,12 +1,59 @@
-# React + Vite
+# Gestor de Tareas en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación CRUD completa para gestionar tareas, desarrollada con React y Vite.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✨ Crear, leer, actualizar y eliminar tareas
+- 📝 Validación de formularios
+- 🎯 Marcar tareas como completadas
+- 🔍 Filtrar tareas por estado
+- 💾 Persistencia local con localStorage
+- 🎨 Interfaz moderna y responsiva
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- CSS Modules
+- LocalStorage
+
+## Instalación
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/Alcidexpress/proyect-crud-vite.git
+```
+
+2. Instala las dependencias:
+```bash
+cd proyect-crud-vite
+npm install
+```
+
+3. Inicia el servidor de desarrollo:
+```bash
+npm run dev
+```
+
+## Estructura del proyecto
+
+```
+src/
+  ├── components/
+  │   ├── FormularioTarea/
+  │   ├── ListaTareas/
+  │   └── Tarea/
+  ├── utils/
+  │   ├── validaciones.js
+  │   └── persistencia.js
+  └── App.jsx
+```
+
+## Contribución
+
+Las contribuciones son bienvenidas. Por favor, abre un issue para discutir los cambios propuestos.
+
+## Licencia
+
+MIT
