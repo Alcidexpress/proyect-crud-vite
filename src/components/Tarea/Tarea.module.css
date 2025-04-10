@@ -1,0 +1,116 @@
+.tareaItem {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tareaItem:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.completada {
+    background-color: #f8f9fa;
+    opacity: 0.8;
+}
+
+.completada h3 {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.contenido {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.titulo {
+    margin: 0 0 0.5rem 0;
+    color: #212529;
+    font-size: 1.1rem;
+}
+
+.descripcion {
+    margin: 0;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.acciones {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.boton {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.boton:hover {
+    opacity: 0.9;
+}
+
+.completar {
+    background-color: #28a745;
+    color: white;
+}
+
+.editar {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.eliminar {
+    background-color: #dc3545;
+    color: white;
+}
+
+.editarTarea {
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+.botonesEdicion {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+.guardar {
+    background-color: #28a745;
+    color: white;
+}
+
+.cancelar {
+    background-color: #6c757d;
+    color: white;
+} 

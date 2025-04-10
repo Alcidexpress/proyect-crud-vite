@@ -1,0 +1,129 @@
+.lista-tareas {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lista-tareas h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sin-tareas {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tarea-item {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarea-item.completada {
+    background-color: #f0f0f0;
+    opacity: 0.8;
+}
+
+.tarea-item.completada h3 {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.contenido-tarea {
+    flex: 1;
+}
+
+.tarea-item h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.tarea-item p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.acciones-tarea {
+    display: flex;
+    gap: 10px;
+}
+
+.acciones-tarea button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.acciones-tarea .completar {
+    background-color: #28a745;
+    color: white;
+}
+
+.acciones-tarea .editar {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.acciones-tarea .eliminar {
+    background-color: #dc3545;
+    color: white;
+}
+
+.editar-tarea {
+    width: 100%;
+}
+
+.editar-tarea input,
+.editar-tarea textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.editar-tarea textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+.botones-edicion {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.botones-edicion button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botones-edicion button:first-child {
+    background-color: #28a745;
+    color: white;
+}
+
+.botones-edicion button:last-child {
+    background-color: #6c757d;
+    color: white;
+} 
